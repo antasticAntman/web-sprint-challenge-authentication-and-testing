@@ -5,7 +5,6 @@ const {JWT_SECRET} = require('../secrets/index')
 const {
   checkBodyInfo,
   checkUsernameExists,
-  checkCredentials,
   checkUsernameInDb
 } = require('./auth-middleware')
 const Auth = require('./auth-model')

@@ -40,14 +40,9 @@ const checkBodyInfo = (req, res, next) => {
     next()
 }
 
-const checkCredentials = (req, res, next) => {
-
-    next()
-}
 
 module.exports = {
     checkBodyInfo, 
-    checkUsernameExists, 
-    checkCredentials,
+    checkUsernameExists,
     checkUsernameInDb
 }
